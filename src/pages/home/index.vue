@@ -151,54 +151,6 @@ export default {
 };
 </script>
 
-<style  >
-.slide-image {
-  width: 750rpx;
-}
-.menu {
-  padding: 20rpx 0;
-  display: flex;
-  justify-content: space-around;
-}
-.menu img {
-  width: 128rpx;
-  height: 140rpx;
-}
-.floor_title img {
-  width: 750rpx;
-  height: 80rpx;
-}
-.floors .content {
-  display: flex;
-  justify-content: space-between;
-}
-.floors .content .left img {
-  width: 260rpx;
-  height: 380rpx;
-}
-.floors .content .right {
-  flex: 1;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.floors .content .right img {
-  width: 232rpx;
-  height: 188rpx;
-  border-radius: 4px;
-}
-.toTop {
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.8);
-  position: fixed;
-  right: 40rpx;
-  bottom: 40rpx;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 16px;
-}
+<style scoped lang='scss'>
+  @import 'main.scss'
 </style>

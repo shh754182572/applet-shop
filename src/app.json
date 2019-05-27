@@ -2,7 +2,11 @@
   "pages": [
     "pages/home/main",
     "pages/cate/main",
-    "pages/card/main",
+    "pages/cart/main",
+    "pages/search/main",
+    "pages/auth/main",
+    "pages/search_list/main",
+    "pages/goods_detail/main",
     "pages/my/main"  ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,7 +32,7 @@
       "selectedIconPath": "static/icon/2-2.png"
     }, {
       "text": "购物车",
-      "pagePath": "pages/card/main",
+      "pagePath": "pages/cart/main",
       "iconPath": "static/icon/3-1.png",
       "selectedIconPath": "static/icon/3-2.png"
     }, {
